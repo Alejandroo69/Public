@@ -53,7 +53,7 @@ while (API.Read_LoopyLoop()) do
     print("Basket 1 ID ", UTILS:getbasket1())
     print("Basket 2 ID ", UTILS:getbasket2())
 
-    if not UTILS:findNPC(IDs.Frito[1], 28) and not UTILS:findNPC(IDs.Frito[2], 28) then
+    if not UTILS:findNPC(IDs.Frito[1], 35) and not UTILS:findNPC(IDs.Frito[2], 35) then
         print("Frito not found!")
         API.Write_LoopyLoop(false)
         goto continue
