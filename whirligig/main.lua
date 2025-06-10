@@ -52,6 +52,7 @@ while (API.Read_LoopyLoop()) do
     print("Basket 2 quantity ", UTILS:basket2())
     print("Basket 1 ID ", UTILS:getbasket1())
     print("Basket 2 ID ", UTILS:getbasket2())
+    API.SetMaxIdleTime(5)
 
     if not UTILS:findNPC(IDs.Frito[1], 50) and not UTILS:findNPC(IDs.Frito[2], 50) then
         print("Frito not found!")
